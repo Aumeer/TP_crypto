@@ -1,6 +1,6 @@
-#Nom: Tp_cryptage
-#But: Crypter et decrypter un message qui peut etre lit a l'aide d'un cle
-#Auteur: Jabeer Aumeer
+Nom: Tp_cryptage
+- But: Crypter et decrypter un message qui peut etre lit a l'aide d'un cle
+- Auteur: Jabeer Aumeer
 
 ### Le principe du chiffrement asymétrique 
 
