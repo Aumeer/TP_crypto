@@ -4,13 +4,12 @@ Auteur: Jabeer Aumeer
 
 ### Le principe du chiffrement asymétrique 
 
-Naruto voudrait pouvoir correspondre secrètement avec Hinata , sans que Sakura ne puisse lire les messages que Hinata lui envoie. Naruto génère un jeu de deux clés de chiffrement:
+Pour comprendre on prend comme exemple: un message secrete doit etre envoyer a un base millitaire Russie , sans que les espions peuvent lire le message.. On doit génèrer  deux clés de chiffrement:
 
-- une clé publique , qu'il envoie à Hinata, et qui permettra à Hinata de chiffrer les messages qu'elle enverra à Naruto 
-- une clé privée, qu'il conserve précieusement pour lui, et qui lui permettra de déchiffrer les messages chiffrés par Hinata  avec sa clé publique.
+- une clé publique , qu'on doit envoyer au base Russie  et qui permettra à les officier  de chiffrer les messages qu'il enverra en retours. 
+- une clé privée, qu'il conserve précieusement pour lui, et qui lui permettra de déchiffrer les messages chiffrés par les officiers  avec sa clé publique.
 
-Naruto peut distribuer la clé publique à autant de personne qu'il le souhaite, cette clé ne sert qu'à chiffrer les messages !
-Si Naruto veut pouvoir chiffrer les messages qu'il envoie à Hinata, il faut que Hinata génère un autre jeu de clés, et qu'elle lui donne sa clé publique.
+La clee publique peut etre distribue  à autant de personne qu'il le souhaite, cette clé ne sert qu'à chiffrer les messages !
 
 
 ## Installer le module Crypto
